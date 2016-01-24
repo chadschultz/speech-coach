@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="avatar_image_size">40dp</dimen>
+    <dimen name="list_item_padding">10dp</dimen>
+
+    <!-- Use standard Material Design text sizes and styles. See
+    https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/res/res/values/dimens_material.xml
+    for identifiers and https://www.google.com/design/spec/style/typography.html#typography-typeface for descriptions
+    android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+    android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+
+    Use this way:
+    android:textSize="@android:dimen/text_size_body_2_material"
+     or
+     android:textAppearance="@style/TextAppearance.AppCompat.Title" -->
+</resources>

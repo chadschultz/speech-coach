@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_padding">
+    <ImageView
+        android:id="@+id/criterion_group_icon_imageview"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="20dp"
+        android:tint="@color/colorIconDark"
+        android:src="@drawable/ic_flight_land_black_24px"/>
+
+    <TextView
+        android:id="@+id/criterion_group_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/colorTextPrimaryDark"
+        android:text="Audience Interaction"
+        />
+
+    <ImageView
+        android:id="@+id/criterion_group_expand_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_expand_more_24dp"
+        android:tint="@color/colorIconDark"/>
+
+
+</LinearLayout>

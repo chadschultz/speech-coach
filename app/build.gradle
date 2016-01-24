@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.inspiredpublicspeaking.speechcoach"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    // Big Nerd Ranch is a trusted name, and project is actively maintained https://github.com/bignerdranch/expandable-recycler-view
+    compile 'com.bignerdranch.android:expandablerecyclerview:2.1.0'
+    // Round avatars on evaluation list. Over 2,000 stars on https://github.com/vinc3m1/RoundedImageView and 100 upvotes on http://stackoverflow.com/questions/2459916/how-to-make-an-imageview-with-rounded-corners
+    compile 'com.makeramen:roundedimageview:2.2.1'
+}

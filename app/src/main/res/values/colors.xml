@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: is the "color" prefix necessary? -->
+    <color name="colorPrimary">#2196F3</color> <!-- Blue 500 -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Blue 700 -->
+    <color name="colorPrimaryLight">#BBDEFB</color> <!-- Blue 100 -->
+    <color name="colorAccent">#FFAB00</color> <!-- Amber A400 -->
+    <!-- TODO: temp -->
+    <color name="colorAccentOld">#FFC400</color> <!-- Amber A400 -->
+    <color name="colorAccentDark">#FFAB00</color> <!-- Amber A700, so it better shows up for text on a light background -->
+    <!-- TODO: see Tools > Android > Theme Editor - I may not even need the following colors? -->
+    <color name="colorTextPrimaryDark">#DE000000</color> <!-- Dark color for light background -->
+    <color name="colorTextSecondaryDark">#86000000</color>
+    <color name="colorTextTertiaryDark">#61000000</color> <!-- Hint/disabled text and icons -->
+    <color name="colorIconDark">#737373</color> <!-- SVG tints must be fully opaque. Taken from expand/collapse list example on https://www.google.com/design/spec/components/lists-controls.html#lists-controls-types-of-list-controls -->
+    <color name="colorDividersDark">#61000000</color>
+    <color name="colorTextPrimaryLight">#FFFFFFFF</color> <!-- Light color for dark background -->
+    <color name="colorTextSecondaryLight">#B3FFFFFF</color>
+    <color name="colorTextTertiaryLight">#4DFFFFFF</color> <!-- Hint/disabled text and icons -->
+    <color name="colorDividersLight">#1FFFFFFF</color>
+    <color name="colorAvatarText">#FFFFFF</color>
+
+    <!-- TODO: seems like there should be a better way to handle the icon color thing. Styles? -->
+    <color name="colorAppBarIcon">@color/colorTextPrimaryLight</color>
+</resources>
